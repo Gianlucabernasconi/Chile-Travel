@@ -1,0 +1,297 @@
+<!doctype html>
+<html>   
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body class="font-Montserrat dark:bg-gray-900">
+<nav class="w-full h-14 hidden bg-white lg:flex p-4 justify-between fixed z-50 dark:bg-gray-800">
+  <div class="h-auto w-auto">
+    <p class="text-xl text-primary font-black dark:text-white">Chile Travel</p>
+  </div>
+  <div class="flex space-x-8">
+    <a class="font-bold text-md text-primary dark:text-white dark:hover:text-primary" href="#home">Inicio</a>
+    <a class="font-bold text-md text-primary dark:text-white dark:hover:text-primary" href="#rentas_destacadas">Rentas</a>
+    <a class="font-bold text-md text-primary dark:text-white dark:hover:text-primary" href="#recomendados">Recomendados</a>
+    <a class="font-bold text-md text-primary dark:text-white dark:hover:text-primary" href="#faqs">FAQS</a>
+    <a class="font-bold text-md text-primary dark:text-white dark:hover:text-primary" href="#footer">Sobre nosotros</a>
+  </div>
+  <div class="flex space-x-4">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8">
+      <path  class="fill-current text-primary dark:text-white" fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5ZM2.25 10.5a8.25 8.25 0 1 1 14.59 5.28l4.69 4.69a.75.75 0 1 1-1.06 1.06l-4.69-4.69A8.25 8.25 0 0 1 2.25 10.5Z" clip-rule="evenodd" />
+    </svg>
+    <button id="toggle"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-8 h-8"stroke="currentColor" class="w-6 h-6">
+      <path class="fill-current text-primary dark:text-white" stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+    </svg>
+    </button>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8">
+      <path class="fill-current text-gray-200" d="M4.5 6.375a4.125 4.125 0 1 1 8.25 0 4.125 4.125 0 0 1-8.25 0ZM14.25 8.625a3.375 3.375 0 1 1 6.75 0 3.375 3.375 0 0 1-6.75 0ZM1.5 19.125a7.125 7.125 0 0 1 14.25 0v.003l-.001.119a.75.75 0 0 1-.363.63 13.067 13.067 0 0 1-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 0 1-.364-.63l-.001-.122ZM17.25 19.128l-.001.144a2.25 2.25 0 0 1-.233.96 10.088 10.088 0 0 0 5.06-1.01.75.75 0 0 0 .42-.643 4.875 4.875 0 0 0-6.957-4.611 8.586 8.586 0 0 1 1.71 5.157v.003Z" />
+    </svg>
+    
+  </div>
+</nav>
+
+
+<section class="w-full h-auto flex flex-col">
+  
+  <div class="w-full h-3/4" id="home">
+  <div class="relative w-full flex-1">
+    
+    <div class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center lg:space-y-0 lg:items-start lg:pt-48 lg:justify-start">
+      <input class="outline-none p-3 rounded-full shadow-sm transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12 lg:hidden" placeholder="Chile" type="search" name="" id="">
+   
+
+      <div class="lg:hidden"> 
+        <p class="mt-[-20rem] text-4xl font-black text-primary text-center">Chile Travel</p> 
+        <p class="mt-[1rem] text-4xl text-center text-white">Encuentra más ubicaciones como esta</p> 
+    </div>
+
+
+      <div class="hidden h-auto lg:w-2/5 lg:flex pb-6">
+        <p class="text-4xl ml-16 mt-12 font-bold text-white">Encuentra más ubicaciones como esta</p>
+       
+
+      </div>
+      <button class="hidden md:block lg:ml-16 w-48 rounded-full text-lg text-primary font-semibold p-4 shadow-sm transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-110 hover:text-white hover:bg-primary duration-300">
+        Explorar
+      </button>
+      
+    </div>
+    <div class="w-full h-full lg:h-[650px] lg:bg-[url('https://i.ibb.co/bRKRD3N/Chile17.jpg')] lg:bg-cover lg:bg-center">
+      <img class="lg:hidden" src="https://i.ibb.co/k5nd9f0/Chile1.jpg">
+    </div>
+    </div>
+  </div>
+
+  <div class="p-6" id="recomendados">
+    <p class="text-3xl font-semibold mt-5 text-primary pb-10 dark:text-white">Recomendados</p>
+    <div class=" w-auto h-72 mt-6 overflow-x-auto overscroll-x-contain flex space-x-6 justify-center scrollbar-hide overflow-y-hidden"> 
+      <div class="Card">
+      <div class=" w-full h-3/5 rounded-t-lg bg-[url('https://i.ibb.co/tHh3fBv/Chile3.jpg')] bg-cover"></div>
+      <div class="w-full h-2/5 bg-red-500 rounded-b-lg dark:bg-gray-700 dark:hover:bg-primary">
+        <p class="text-white text-bold text-xl px-4 py-2 dark:text-white">Torres del paine</p>
+        <p class="text-white text-md px-4 dark:text-white">Cuernos del Paine</p>
+      </div></div>
+      <div class="Card">
+        <div class=" w-full h-3/5 rounded-t-lg bg-[url('https://i.ibb.co/DrdQqHS/Chile2.jpg')] bg-cover "></div>
+        <div class="w-full h-2/5 bg-white rounded-b-lg dark:bg-gray-800 dark:hover:bg-fourth">
+          <p class="text-tertiary text-bold text-xl px-4 py-2 dark:text-white">Pucón
+          </p>
+          <p class="text-tertiary text-md px-4 dark:text-white">Región de la Araucanía</p>
+        </div></div>
+        <div class="Card">
+          <div class=" w-full h-3/5 rounded-t-lg bg-[url('https://i.ibb.co/tc3wPym/Chile4.jpg')] bg-cover "></div>
+          <div class="w-full h-2/5 bg-red-500 rounded-b-lg dark:bg-gray-700 dark:hover:bg-primary">
+            <p class="text-white  text-bold text-xl px-4 py-2 dark:text-white">Santiago</p>
+            <p class="text-white text-md px-4 dark:text-white">Costanera Center</p>
+          </div></div>
+          <div class="Card">
+            <div class=" w-full h-3/5 rounded-t-lg bg-[url('https://i.ibb.co/WpR5zGW/Chile6.jpg')] bg-cover "></div>
+            <div class="w-full h-2/5 bg-white rounded-b-lg dark:bg-gray-800 dark:hover:bg-fourth">
+              <p class="text-tertiary text-bold text-xl px-4 py-2 dark:text-white">Desierto de Atacama</p>
+              <p class="text-tertiary text-md px-4 dark:text-white">Lagunas altiplánicas</p>
+            </div></div>
+            <div class="Card">
+              <div class=" w-full h-3/5 rounded-t-lg bg-[url('https://i.ibb.co/fv9ZfmR/Chile7.jpg')] bg-cover "></div>
+              <div class="w-full h-2/5 bg-red-500 rounded-b-lg dark:bg-gray-700 dark:hover:bg-primary">
+                <p class="text-white  text-bold text-xl px-4 py-2 dark:text-white">Cajón del Maipo</p>
+                <p class="text-white text-md px-4 dark:text-white">Parque Nacional El Morado</p>
+              </div></div>
+              <div class="Card">
+                <div class=" w-full h-3/5 rounded-t-lg bg-[url('https://i.ibb.co/D8CQ56P/Chile8.jpg')] bg-cover "></div>
+                <div class="w-full h-2/5 bg-white rounded-b-lg dark:bg-gray-800 dark:hover:bg-fourth">
+                  <p class="text-tertiary text-bold text-xl px-4 py-2 dark:text-white">Santiago</p>
+                  <p class="text-tertiary text-md px-4 dark:text-white">Providencia</p>
+                </div></div>
+                <div class="Card">
+                  <div class=" w-full h-3/5 rounded-t-lg bg-[url('https://i.ibb.co/PMrLjmX/Chile9.jpg')] bg-cover "></div>
+                  <div class="w-full h-2/5 bg-red-500 rounded-b-lg dark:bg-gray-700 dark:hover:bg-primary">
+                    <p class="text-white text-bold text-xl px-4 py-2 dark:text-white">Rapa Nui</p>
+                    <p class="text-white  text-md px-4 dark:text-white">Ahu Tongariki</p>
+                  </div></div>
+                  <div class="Card">
+                    <div class=" w-full h-3/5 rounded-t-lg bg-[url('https://i.ibb.co/DgY5qH6/Chile10.jpg')] bg-cover "></div>
+                    <div class="w-full h-2/5 bg-white rounded-b-lg dark:bg-gray-800 dark:hover:bg-fourth">
+                      <p class="text-tertiary text-bold text-xl px-4 py-2 dark:text-white">Torres del Paine</p>
+                      <p class="text-tertiary text-md px-4 dark:text-white">Cuernos del Paine</p>
+                    </div></div>
+                                             
+        
+   
+
+    </div>
+  </div>
+
+  <div class="px-6 w-auto lg:p-[70px]" id="rentas_destacadas">
+    <p class="text-3xl text-primary font-semibold pb-6  dark:text-white">Rentas destacadas</p>
+    <div class="w-full h-full flex flex-col items-center justify-center">
+        <div class="w-full h-96 bg-[url('https://i.ibb.co/KVJLTjs/Chile18.jpg')]  bg-cover rounded-xl mb-9 lg:bg-center hover:scale-105 duration-700">
+            <p class="CardTitle lg:text-b">Patagonia</p>
+            <p class="text-sm pl-8 text-white mr-24 lg:text-lg">Conocida por sus magníficos glaciares, montañas y cuerpos de agua.</p>
+        </div>
+        <div class="lg:flex lg:h-full lg:w-full lg:space-x-4">
+            <div class="w-full h-96 bg-[url('https://i.ibb.co/xqWSzFf/Chile16.jpg')] bg-cover rounded-xl mb-6 lg:h-auto mr-6 hover:scale-105 duration-700">
+                <p class="CardTitle">Santiago</p>
+                <p class="text-sm pl-8 text-white mr-24 lg:text-lg">Este tipo de vistas son comunes en áreas céntricas y comerciales de Santiago, donde la arquitectura contemporánea y la actividad urbana son prominentes.</p>
+            </div>
+            <div class="h-full w-full">
+                <div class="w-full h-96 bg-[url('https://i.ibb.co/DgY5qH6/Chile10.jpg')] bg-cover rounded-xl mb-10 hover:scale-105 duration-700">
+                    <p class="CardTitle">Torres del Paine</p>
+                    <p class="text-sm pl-8 text-white mr-24 lg:text-lg">Torres del Paine es conocido por su increíble diversidad de paisajes, que incluyen montañas, glaciares, bosques y lagos. Es un lugar muy popular para el trekking y el senderismo.</p>
+                </div>
+                <div class="w-full h-96 bg-[url('https://i.ibb.co/DrdQqHS/Chile2.jpg')] bg-cover rounded-xl mb-6 hover:scale-105 duration-700">
+                    <p class="CardTitle">Parque Nacional Huerquehue</p>
+                    <p class="text-sm pl-8 text-white mr-24 lg:text-lg">Estos parques son frecuentados por amantes de la naturaleza y excursionistas que buscan escapar del bullicio urbano y disfrutar de la tranquilidad y belleza natural que estos lugares ofrecen.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="w-full h-full" id="faqs">
+  <div class="w-full h-full px-6 flex flex-col space-y-4">
+    <p class="text-3xl text-primary font-semibold mt-6 dark:text-white">FAQS</p>
+    <div>
+     <p class="text-xl font-medium text-primary dark:text-white">Política de Cancelación</p>
+     <p class="text-base pt-2 dark:text-slate-200">Para estancias menores a una semana es importante avisar con 3 días de
+      anticipación, de caso contario será sancionado.</p> 
+    </div>
+    <div>
+      <p class="text-xl font-medium text-primary dark:text-white">Métodos de pago</p>
+      <p class="text-base pt-2 dark:text-slate-200">
+        Aceptamos distintos métodos de pago: VISA, MasterCard, American Express,
+        Paypal y Binance
+      </p>
+    </div>
+    <div>
+      <p class="text-xl font-medium text-primary dark:text-white">Mascotas</p>
+      <p class="text-base pt-2 dark:text-slate-200">El tema de las mascotas dependerá directamente del anfitrión.</p>
+    </div>
+    <div>
+      <p class="text-xl font-medium text-primary dark:text-white">Información de Seguridad</p>
+      <p class="text-base pt-2 dark:text-slate-200">
+        Todas nuestras estancias cuentan con seguro en caso de accidentes
+      </p>
+    </div>
+    <div>
+      <p class="text-xl font-medium text-primary dark:text-white">Estancias Largas</p>
+      <p class="text-base pt-2 dark:text-slate-200"">
+        Contamos con estancias de hasta 3 meses, en este caso es requerido un
+        anticipo con un monto del 50% del valor de la renta
+      </p>
+    </div>
+  </div>
+</div>
+
+  
+
+</section>   
+<footer id="footer" class="w-full h-auto bg-gray-50 p-6 space-y-2 mt-6 dark:bg-gray-300">
+<p class="text-xl font font-bold text-black">Acerca de nosotros</p>
+<p class="text-sm text-gray-300 dark:text-black"">Acerca De </p>
+<p class="text-sm text-gray-300 dark:text-black">Inversionistas </p>
+<p class="text-sm text-gray-300 dark:text-black">Empleos</p>
+<p class="text-sm text-gray-300 dark:text-black">Términos y condiciones</p>
+<p class="text-sm text-gray-300 dark:text-black">Chile Travelm Inc.</p>
+</footer>
+
+<div class="w-full h-16 bg-white sticky left-0 bottom-0 shadow-md flex space-x-8 items-center justify-center lg:hidden dark:bg-gray-700">
+  <a href="#home">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 h-12">
+      <path class="fill-current text-gray-200" d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z" />
+      <path class="fill-current text-gray-200" d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
+    </svg>
+    
+    
+
+    
+  </a>
+  <a href="#rentas_destacadas">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 h-12">
+      <path  class="fill-current text-gray-200" fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 1 0 0 13.5 6.75 6.75 0 0 0 0-13.5ZM2.25 10.5a8.25 8.25 0 1 1 14.59 5.28l4.69 4.69a.75.75 0 1 1-1.06 1.06l-4.69-4.69A8.25 8.25 0 0 1 2.25 10.5Z" clip-rule="evenodd" />
+    </svg>
+    
+    
+  </a>
+  
+  <a href="#recomendados">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 h-12">
+      <path class="fill-current text-gray-200" d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z" />
+    </svg>
+    
+  </a>
+
+ <button id="togglesm">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
+    <path class="fill-current text-gray-200 dark:text-white" stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+    </svg>
+  
+ </button>
+ <a href="">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 h-12">
+    <path class="fill-current text-gray-200" d="M4.5 6.375a4.125 4.125 0 1 1 8.25 0 4.125 4.125 0 0 1-8.25 0ZM14.25 8.625a3.375 3.375 0 1 1 6.75 0 3.375 3.375 0 0 1-6.75 0ZM1.5 19.125a7.125 7.125 0 0 1 14.25 0v.003l-.001.119a.75.75 0 0 1-.363.63 13.067 13.067 0 0 1-6.761 1.873c-2.472 0-4.786-.684-6.76-1.873a.75.75 0 0 1-.364-.63l-.001-.122ZM17.25 19.128l-.001.144a2.25 2.25 0 0 1-.233.96 10.088 10.088 0 0 0 5.06-1.01.75.75 0 0 0 .42-.643 4.875 4.875 0 0 0-6.957-4.611 8.586 8.586 0 0 1 1.71 5.157v.003Z" />
+  </svg>
+  
+ </a>
+</div>
+
+<script>
+  const htmlElement = document.querySelector("html")
+  const toggleButton = document.querySelector("#toggle")
+  const toggleButtonSm = document.querySelector("#togglesm")
+
+  toggleButton.addEventListener("click", () => toggleDarkMode())
+  toggleButtonSm.addEventListener("click", () => toggleDarkMode())
+
+  const toggleDarkMode = () =>{
+    htmlElement.classList.contains("dark")?
+    htmlElement.classList.remove("dark"):
+    htmlElement.classList.add("dark")
+  }
+
+  toggleButton.addEventListener("click", () => changeIcon())
+
+const changeIcon = () => {
+    let lightIcon = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+    <path class="fill-current text-primary dark:text-white" stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+    </svg>`;
+
+    let darkIcon = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+    <path class="fill-current text-primary dark:text-white" stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+    </svg>`;
+
+    // Verifica si el modo oscuro está activo para determinar qué ícono mostrar
+    if (htmlElement.classList.contains('dark')) {
+        toggle.innerHTML = lightIcon; // Modo oscuro activo, mostrar ícono de sol
+    } else {
+        toggle.innerHTML = darkIcon; // Modo claro activo, mostrar ícono de luna
+    }
+}
+
+toggleButtonSm.addEventListener("click", () => changeIconSm())
+
+const changeIconSm = () => {
+  let lightIcon = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
+  <path class="fill-current text-primary dark:text-white" stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+  </svg>`;
+
+  let darkIcon = `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 h-12">
+  <path class="fill-current text-gray-200 dark:text-white" stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+  </svg>`;
+
+  // Verifica si el modo oscuro está activo para determinar qué ícono mostrar
+  if (htmlElement.classList.contains('dark')) {
+      togglesm.innerHTML = lightIcon; // Modo oscuro activo, mostrar ícono de sol
+  } else {
+      togglesm.innerHTML = darkIcon; // Modo claro activo, mostrar ícono de luna
+  }
+}
+</script>
+
+</body>
+</html>
